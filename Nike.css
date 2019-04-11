@@ -1,0 +1,106 @@
+@font-face {
+    font-family: nike2;
+    src: url("../Bootstrap/assets\ nike/src");
+}
+@font-face {
+    font-family: nike;
+    src: url("../Bootstrap/assets\ nike/src");
+}
+*{
+    box-sizing: border-box;
+}
+#banner .corousel-caption{
+    bottom: 50%;
+}
+#banner .corousel-item::after{
+    content: "";
+    position: absolute;
+    height: 50%;
+    margin-top: 0px;
+    left: 0px;
+    width: 50%;
+    size: 50% 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+h5{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.p1{
+    color: black;
+    font-size: 25px;
+}
+.logo{
+    max-width: 50px;
+    margin: 20px;
+}
+ .light-border{ 
+    border: 1px  solid rgba(0,0,0,0.1);
+ }
+.inline-nav li, .inline-nav li h6{
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+.inline-nav li h6{
+    font-weight: 600;
+}
+.collections{
+    display: flex;
+    justify-content: center;
+}
+.top-collection li{
+    padding:0px 20px;
+}
+.inline-nav li a{
+    text-decoration: none;
+    color: black;
+}
+.topnav{
+    font-size: 12px;
+    color: rgba(0,0,0,0.6);
+}
+.topnav li:hover{
+    color: rgba(0,0,0,1);
+}
+
+.top-collection li:hover{
+    background: rgba(0,0,0,0.1);
+}
+@media only screen and (min-width: 600px) {
+    .top-collection{
+        margin: 0px;
+        padding-top: 15px;
+        justify-content: center;
+        font-family: nike;
+    }
+}
+@media only screen and (max-width: 600px) {
+    ul.inline-nav.top-collection {
+        padding: 0px;
+        margin: 0px;
+    }
+    .top-collection li{
+        padding: 0px;
+        display: block;
+    }
+}
+marquee{
+    font-size: 18px;
+    font-weight: bold;
+}
+marquee:hover{
+    font-size: 25px;
+    font-weight: bold;
+    color: yellow;
+  text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px rebeccapurple;
+}
+header{ 
+     background-color:lightgoldenrodyellow; 
+} 
+
+footer{
+    background-color: black;
+}
